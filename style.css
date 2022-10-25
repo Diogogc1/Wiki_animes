@@ -1,0 +1,86 @@
+body{
+    background-color: #0038FF;
+    margin: 0%;
+}
+.barratop{
+    height:85px;
+    width:100%;
+    background-color:orange;
+    margin-bottom:50px;
+}
+.logopreto{
+    width:14%;
+    height:85px;
+    background-color:black;
+}
+.logo{
+    width: 90%;
+    height: 250%;
+    margin-left:3%;
+    margin-top: -30%;
+}
+#logop{
+    width: 20%;
+    height: 15%;  
+    margin: auto;
+    display: block;
+    margin-top: -10%;
+    margin-bottom: -40px;
+    filter: drop-shadow(3px 3px 1px black);
+}
+p{
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    margin-top: -65px;
+    margin-bottom: -6%;
+    text-align: center; 
+    font-size: 30px;
+}
+
+ul{
+    display: inline-flex;
+}
+
+.animes{
+    margin: 40px 40px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.dbimg{
+    width: 69%;
+    height: 69%;
+    border-radius: 200%;
+    object-fit: cover;   
+    margin-top: -6px; 
+}
+
+#dbtext{
+    margin-top: 18px;
+}
+
+.animesimg{
+    width: 65%;
+    height: 65%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-size: 35px;
+    list-style-type: none;
+    font-weight: bold;
+    display: flex;
+}
+
+
+
