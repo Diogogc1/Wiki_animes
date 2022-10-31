@@ -28,6 +28,26 @@ body{
     margin-bottom: -40px;
     filter: drop-shadow(3px 3px 1px black);
 }
+
+nav{
+    position: absolute;
+    top: 5px;
+    right: 80px;
+}
+
+nav li{
+    padding: 10px;
+    text-shadow: 2px 2px 1px black;
+    color: white;
+    font-size: 25px;
+    list-style-type: none;
+    font-weight: bold;
+    background-size: 50%;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 15px 15px 15px 15px;
+}
+
 p{
     text-shadow: 2px 2px 2px black;
     color: white;
@@ -73,13 +93,12 @@ a{
     color: white;
 }
 
-li{
+main li{
     text-shadow: 2px 2px 2px black;
     color: white;
     font-size: 35px;
     list-style-type: none;
     font-weight: bold;
-    display: flex;
 }
 
 

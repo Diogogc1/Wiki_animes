@@ -1,0 +1,117 @@
+body{
+    background-color: #0038FF;
+    margin: 0%;
+}
+.barratop{
+    height:85px;
+    width:100%;
+    background-color:orange;
+    margin-bottom:50px;
+}
+.logopreto{
+    width:14%;
+    height:85px;
+    background-color:black;
+}
+.logo{
+    width: 90%;
+    height: 250%;
+    margin-left:3%;
+    margin-top: -30%;
+}
+#logop{
+    width: 20%;
+    height: 15%;  
+    margin: auto;
+    display: block;
+    margin-top: -10%;
+    margin-bottom: -40px;
+    filter: drop-shadow(3px 3px 1px black);
+}
+
+nav{
+    position: absolute;
+    top: 5px;
+    right: 80px;
+}
+
+nav li{
+    padding: 10px;
+    text-shadow: 2px 2px 1px black;
+    color: white;
+    font-size: 25px;
+    list-style-type: none;
+    font-weight: bold;
+    background-size: 50%;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 15px 15px 15px 15px;
+    text-decoration: none;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+#p-principal{
+    text-align: center;
+    font-size: 25px;
+    margin-top: -15px;
+    color: white;
+    text-shadow: 2px 2px 2px black;  
+}
+
+form{
+    margin-top: 10%;
+}
+
+form label{
+    display: block;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin-left: 35%;
+}
+
+.input-padrão{
+    width: 30%;
+    height: 30px;
+    display: block;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form textarea{
+    width: 30%;
+    display: block;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+#p-radio{
+    text-align: center;
+    display: block;
+    padding-top: 6%;
+    font-size: 20px;
+}
+
+#radio{
+    margin-top: 7%;
+    display: block;
+}
+
+#checkbox{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#enviar{
+    margin-top: 10px;
+    width: 30.4%;    
+}

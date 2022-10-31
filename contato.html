@@ -1,0 +1,74 @@
+<!- 
+Nome: Diogo Gomes Castro
+Professor: Marco Maciel
+Turma: 1° Período - ADS
+Atividade: Atividade Prática 08
+->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+        h3{
+            font-size: 30px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animez.7-WIKI</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+
+    <header>
+        <div class="barratop">
+            <div class="logopreto">
+                <img class="logo" src="ANIMEZ.7 - Logo.png">
+            </div>
+            <nav>
+                <ul>
+                    <a href="contato.html"><li>contato</li></a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h2>Fale Conosco!</h2>
+        <p id="p-principal">Relate bugs ou nós dê ideias de como melhorar a wiki</p>
+
+        <form>
+            <label for="Nome e Sobrenome" class="label-padrão">Nome e Sobrenome</label>
+            <input type="text" id="nomeesobrenome" class="input-padrão">
+
+            <label for="Email" class="label-padrão">Email</label>
+            <input type="text" id="email" class="input-padrão">
+
+            <label for="Telefone" class="label-padrão">Telefone</label>
+            <input type="text" id="telefone" class="input-padrão">
+
+            <label for="Mensagem" class="label-padrão">Mensagem</label>
+            <textarea cols="70" rows="8" id="mensagem"></textarea>
+
+            <p id="p-radio">Como você avalia a nossa wiki?</p>
+
+            <div id="radio">
+                <label for="1 estrela"><input type="radio" name="avaliação" value="1 estrela" id="radio1">1 Estrela</label>
+                
+                <label for="2 estrelas"><input type="radio" name="avaliação" value="1 estrela" id="radio2">2 Estrelas</label>
+                
+                <label for="3 estrelas"><input type="radio" name="avaliação" value="1 estrela" id="radio3">3 Estrelas</label>
+                
+                <label for="1 estrelas"><input type="radio" name="avaliação" value="1 estrela" id="radio4">4 Estrelas</label>
+            </div>
+
+            <label id="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+
+            <input type="submit" id="enviar" class="input-padrão">
+        </form>
+
+
+    </main>
+</body>

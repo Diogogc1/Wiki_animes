@@ -20,6 +20,29 @@ body{
     margin-top: -30%;
 }
 
+nav{
+    position: absolute;
+    top: 5px;
+    right: 80px;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav li{
+    padding: 10px;
+    text-shadow: 2px 2px 1px black;
+    color: white;
+    font-size: 25px;
+    list-style-type: none;
+    font-weight: bold;
+    background-size: 50%;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 15px 15px 15px 15px;
+}
+
 h1{
     text-align: center;
     color: white;
