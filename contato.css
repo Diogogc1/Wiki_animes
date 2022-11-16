@@ -2,6 +2,7 @@ body{
     background-color: #0038FF;
     margin: 0%;
 }
+
 .barratop{
     height:85px;
     width:100%;
@@ -54,12 +55,14 @@ h2{
     font-size: 50px;
     color: white;
     text-shadow: 2px 2px 2px black;
+    margin-bottom: -6%;
 }
 
-#p-principal{
+
+#legend1{
     text-align: center;
-    font-size: 25px;
-    margin-top: -15px;
+    font-size: 28px;
+    margin-bottom: 2%;
     color: white;
     text-shadow: 2px 2px 2px black;  
 }
@@ -75,6 +78,7 @@ form label{
     color: white;
     text-shadow: 2px 2px 2px black;
     margin-left: 35%;
+    font-size: 1.2em;
 }
 
 .input-padrão{
@@ -92,26 +96,73 @@ form textarea{
     margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: -60px;
 } 
 
-#p-radio{
-    text-align: center;
-    display: block;
-    padding-top: 6%;
-    font-size: 20px;
+#estrela{
+    margin-top: 6%;
 }
 
-#radio{
-    margin-top: 7%;
-    display: block;
+#legend-estrela{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 40px;
+    color: white;
+    text-shadow: 2px 2px 2px black;  
+}
+
+#estrela_options{
+    width: 20%;
+    height: 30px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 20px;
 }
 
 #checkbox{
-    margin-top: 30px;
-    margin-bottom: 20px;
+    padding-left: 1.5%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    font-size: 1.2em;    
+}
+
+.legend_outros{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0.5%;
+    color: white;
+    text-shadow: 2px 2px 2px black;    
+}
+
+#radio_options{
+    margin-top: 1%;
+    text-align: center;  
+}
+
+.radio{
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+    width: 12%;
+    font-size: 1.5em;
 }
 
 #enviar{
     margin-top: 10px;
-    width: 30.4%;    
+    width: 30.4%;  
+    height: 40px;
+    margin-bottom: 1%;  
+    background-color:orange;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1em;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+#enviar:hover{
+    background-color: darkorange;
+    transform: scale(1.04); 
 }

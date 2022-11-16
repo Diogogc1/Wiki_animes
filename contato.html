@@ -25,7 +25,7 @@ Atividade: Atividade Prática 08
     <header>
         <div class="barratop">
             <div class="logopreto">
-                <img class="logo" src="ANIMEZ.7 - Logo.png">
+                <a href="index.html"><img class="logo" src="ANIMEZ.7 - Logo.png"></a>
             </div>
             <nav>
                 <ul>
@@ -37,36 +37,55 @@ Atividade: Atividade Prática 08
 
     <main>
         <h2>Fale Conosco!</h2>
-        <p id="p-principal">Relate bugs ou nós dê ideias de como melhorar a wiki</p>
-
+        
         <form>
-            <label for="Nome e Sobrenome" class="label-padrão">Nome e Sobrenome</label>
-            <input type="text" id="nomeesobrenome" class="input-padrão">
+            
+            <fieldset>
+                <legend id="legend1">Relate bugs ou nós dê ideias de como melhorar a wiki</legend>
 
-            <label for="Email" class="label-padrão">Email</label>
-            <input type="text" id="email" class="input-padrão">
+                <label for="Nome e Sobrenome" class="label-padrão">Nome e Sobrenome</label>
+                <input type="text" id="nomeesobrenome" class="input-padrão" required placeholder="Digite seu nome e sobrenome" alt="nome e sobrenome">
 
-            <label for="Telefone" class="label-padrão">Telefone</label>
-            <input type="text" id="telefone" class="input-padrão">
+                <label for="Email" class="label-padrão">Email</label>
+                <input type="email" id="email" class="input-padrão" required placeholder="seuemail@dominio.com" alt="email">
 
-            <label for="Mensagem" class="label-padrão">Mensagem</label>
-            <textarea cols="70" rows="8" id="mensagem"></textarea>
+                <label for="Telefone" class="label-padrão">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrão" required placeholder="(XX) XXXXX-XXXX" alt="telefone">
 
-            <p id="p-radio">Como você avalia a nossa wiki?</p>
+                <label for="Mensagem" class="label-padrão">Mensagem</label>
+                <textarea cols="70" rows="8" id="mensagem" required placeholder="Digite sua mensagem" alt="digite sua mensagem"></textarea>
+            </fieldset>
 
-            <div id="radio">
-                <label for="1 estrela"><input type="radio" name="avaliação" value="1 estrela" id="radio1">1 Estrela</label>
+
+            <fieldset id="estrela">
+
+                <legend id="legend-estrela">Como você avalia a nossa wiki?</legend>
+
+                <select id="estrela_options">
+                    <option>1 Estrela</option>
+                    <option>2 Estrelas</option>
+                    <option>3 Estrelas</option>
+                    <option>4 Estrelas</option>
+                    <option>5 Estrelas</option>
+                </select>
                 
-                <label for="2 estrelas"><input type="radio" name="avaliação" value="1 estrela" id="radio2">2 Estrelas</label>
-                
-                <label for="3 estrelas"><input type="radio" name="avaliação" value="1 estrela" id="radio3">3 Estrelas</label>
-                
-                <label for="1 estrelas"><input type="radio" name="avaliação" value="1 estrela" id="radio4">4 Estrelas</label>
-            </div>
+            </fieldset>
 
-            <label id="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+            <fieldset>
+                <label id="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+            </fieldset>
 
-            <input type="submit" id="enviar" class="input-padrão">
+            <fieldset>
+                <legend class="legend_outros">Gostaria de entrar em contato conosco para outra finalidade?</legend> 
+                <legend class="legend_outros">Se sim, marque sim e mande a mensagem com o assunto desejado</legend>
+                
+                <fieldset id="radio_options"> 
+                    <label for="Sim" class="radio"><input type="radio" name="contato" value="sim" alt="sim">Sim</label>
+                    <label for="Não" class="radio"><input type="radio" name="contato" value="não" checked alt="não">Não</label>
+                </fieldset>
+            </fieldset>
+
+            <input type="submit" value="Enviar Formulário" id="enviar" class="input-padrão">
         </form>
 
 
