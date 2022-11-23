@@ -26,7 +26,7 @@ body{
     display: block;
     margin-top: -8.5%;
     margin-bottom: -40px;
-    filter: drop-shadow(3px 3px 1px black);
+    filter: drop-shadow(5px 5px 1px black);
 }
 
 nav{
@@ -58,7 +58,7 @@ p{
 }
 
 ul{
-    display: inline-flex;
+    display: flex;
 }
 
 .animes{
@@ -67,23 +67,33 @@ ul{
     height: 400px;
     text-align: center;
     margin-top: 80px;
+    padding-top: 10%;
+    background-color: rgba(255, 255, 255, 0.154);
+    border-radius: 20px;
+    transition: 0.5s all;
+    
+}
+
+.animes:hover{
+    width: 420px;
+    height: 420px;
 }
 
 .dbimg{
-    width: 69%;
-    height: 69%;
+    width: 68.5%;
+    height: 68.5%;
     border-radius: 200%;
     object-fit: cover;   
-    margin-top: -6px; 
+    margin-top: -7px; 
 }
 
 #dbtext{
-    margin-top: 18px;
+    margin-top: 22px;
 }
 
 .animesimg{
-    width: 65%;
-    height: 65%;
+    width: 66%;
+    height: 66%;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -96,9 +106,12 @@ a{
 main li{
     text-shadow: 2px 2px 2px black;
     color: white;
-    font-size: 35px;
+    font-size: 40px;
     list-style-type: none;
-    font-weight: bold;
+}
+
+h3{
+    font-size: 0.8em;
 }
 
 

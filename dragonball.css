@@ -54,8 +54,11 @@ h1{
     font-weight: normal;
 }
 
-main ul li {
+li{
     list-style: none;
+}
+
+.titulo {
     color: rgb(255, 238, 0);
     margin: 60px 0;
     margin-left: 10px;
@@ -74,4 +77,60 @@ main ul li {
     border-right: 15px solid transparent;
     border-bottom: 0px solid transparent;
     filter: drop-shadow(3px 3px 1px black);
+}
+
+li table{
+    border: 1px solid black;
+    width: 90%;
+    height: 30%;
+    margin-left: 15px;
+}
+
+thead{
+    background-color: rgb(39, 39, 39);
+    color: white;
+    text-align: center;
+}
+
+tbody{
+    text-align: center;
+    background-color: white;
+}
+
+tr th{
+    border: 1px solid black;
+    width: 10%;
+    height: 40px;
+    font-weight: bold;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tr td{
+    border: 1px solid black;
+    height: 200px;
+    vertical-align: middle;   
+    padding: 0 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+
+#descricao{
+    width: 40%;  
+}
+
+.videos{
+    display: flex;
+    justify-content: center;
+}
+
+.video{
+    display: inline-block;
+    margin-right: 3%;
+}
+
+.video3{
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
 }
