@@ -12,6 +12,8 @@ body{
     width:14%;
     height:85px;
     background-color:black;
+    display: flex;
+    justify-content: center;
 }
 .logo{
     width: 90%;
@@ -62,6 +64,7 @@ ul{
 }
 
 .animes{
+    display: inline-block;
     margin: 40px 40px;
     width: 400px;
     height: 400px;
@@ -114,5 +117,57 @@ h3{
     font-size: 0.8em;
 }
 
+@media screen and (max-width: 480px)
+{
+    .barratop{
+        height: 70px;
+    }
+
+    .logopreto{
+        width:30%;
+        height: 70px;
+        background-color:black;
+        display: flex;
+        justify-content: center;
+    }
+    .logo{
+        width: 90%;
+        height: 250%;
+        margin-left:4%;
+        margin-top: -35%;
+    }
+    #logop{
+        width: 45%;
+        height: 30%;  
+        margin: auto;
+        display: block;
+        margin-top: -20%;
+        margin-bottom: 30px;
+        filter: drop-shadow(5px 5px 1px black);
+    }  
+
+    nav li{
+        padding: 10px;
+        text-shadow: 2px 2px 1px black;
+        color: white;
+        font-size: 15px;
+        list-style-type: none;
+        font-weight: bold;
+        background-size: 50%;
+        background-color: black;
+        border: 1px solid black;
+        border-radius: 15px 15px 15px 15px;
+        margin-left: 80%;
+    }
+
+    p{
+        text-shadow: 2px 2px 2px black;
+        color: white;
+        margin-bottom: -6%;
+        text-align: center; 
+        font-size: 19px;
+    }
+    
+}
 
 
