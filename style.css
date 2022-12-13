@@ -64,7 +64,8 @@ ul{
 }
 
 .animes{
-    display: inline-block;
+    display:flex;
+    justfy-content: space-around;
     margin: 40px 40px;
     width: 400px;
     height: 400px;
