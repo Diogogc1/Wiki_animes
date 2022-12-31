@@ -61,10 +61,10 @@ p{
 
 ul{
     display: flex;
+    justify-content: center;
 }
 
 .animes{
-    display:flex;
     margin: 40px 40px;
     width: 400px;
     height: 400px;
@@ -73,8 +73,7 @@ ul{
     padding-top: 10%;
     background-color: rgba(255, 255, 255, 0.154);
     border-radius: 20px;
-    transition: 0.5s all;
-    
+    transition: 0.5s all;    
 }
 
 .animes:hover{
