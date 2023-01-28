@@ -136,7 +136,7 @@
         transition: 10s;
         margin-top: 5%;
         justify-content: center;
-        transition: 0%;
+        transition: 0s;
     }
     
     ul section:hover #dropdown_abertura {
