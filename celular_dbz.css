@@ -123,11 +123,6 @@
         width: 40%;  
     }
     
-    #aberturaclick{
-        transition-property: opacity;
-        transition: 10s;
-    }
-    
     #dropdown_abertura{
         background-color: rgba(255, 255, 255, 0.249);
         width: 94%;

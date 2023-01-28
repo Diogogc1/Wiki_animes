@@ -116,7 +116,7 @@
     #text_naruto{
         position: relative;
         left: 0.5%;
-        margin-left: 0%;
+        margin-left: -0.5%;
     }
 
     .animes:hover{
