@@ -6,20 +6,18 @@ body{
 .barratop{
     height:85px;
     width:100%;
-    background-color:orange;
+    background-image: linear-gradient(to right, black 13.9vw, orange 50px);
     margin-bottom:50px;
 }
-.logopreto{
-    width:14%;
-    height:85px;
-    background-color:black;
-}
+
 .logo{
-    width: 90%;
+    position: relative;
+    width: 13%;
     height: 250%;
-    margin-left:3%;
-    margin-top: -30%;
+    top: -75%;
+    left: 0.5%;
 }
+
 #logop{
     width: 20%;
     height: 15%;  
@@ -32,8 +30,9 @@ body{
 
 nav{
     position: absolute;
-    top: 5px;
-    right: 80px;
+    top: 0.8%;
+    right: 5%;
+    font-family: monospace;
 }
 
 nav li{

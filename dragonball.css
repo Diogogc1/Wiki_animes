@@ -2,38 +2,37 @@ body{
     background-image: repeating-linear-gradient(0deg, transparent 20px 78.1px, black 1px 80px), 
     repeating-linear-gradient(90deg, rgb(4, 169, 13) 20px 78.1px, black 1px 80px);
 }
+
 .barratop{
     height:85px;
     width:100%;
-    background-color:orange;
+    background-image: linear-gradient(to right, black 13.9vw, orange 50px);
     margin-bottom:50px;
 }
-.logopreto{
-    width:14%;
-    height: 85px;
-    background-color:black;
-}
+
 .logo{
-    width: 90%;
+    position: relative;
+    width: 13%;
     height: 250%;
-    margin-left:3%;
-    margin-top: -30%;
+    top: -75%;
+    left: 0.5%;
 }
 
 nav{
     position: absolute;
-    top: 5px;
-    right: 80px;
+    top: 0.8%;
+    right: 5%;
+    font-family: monospace;
 }
 
 a{
     text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
 nav li{
     padding: 10px;
     text-shadow: 2px 2px 1px black;
-    color: white;
     font-size: 25px;
     list-style-type: none;
     font-weight: bold;
@@ -119,12 +118,22 @@ tr td{
     width: 40%;  
 }
 
+#aberturaclick{
+    transition-property: opacity;
+    transition: 10s;
+}
 
-#dropdown{
+#dropdown_abertura{
     background-color: rgba(255, 255, 255, 0.249);
     padding: 3%;
     width: 90%;
     margin-left: 1.1%;
+    display: none;
+    transition: 10s;
+}
+
+ul section:hover #dropdown_abertura {
+    display: block; 
 }
 
 .videos{
