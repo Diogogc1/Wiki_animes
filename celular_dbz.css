@@ -130,8 +130,7 @@
     
     #dropdown_abertura{
         background-color: rgba(255, 255, 255, 0.249);
-        padding: 3%;
-        width: 100%;
+        width: 94%;
         margin-left: 0%;
         display: block;
         transition: 10s;
@@ -156,9 +155,10 @@
     .videos > div{
         display: flex;
         margin-top: 7%;
+        margin-right: 0%;
         padding: 0%;
         width: 100%;
-        margin-left: 1.5%;
+        justify-content: center;
     }
     
     #video3{
@@ -168,14 +168,17 @@
         padding: 0%;
         width: 100%;
         height: 50%;
-        margin-left: -1.5%;
+        margin-left: 0%;
         margin-bottom: 5%;
     }
 
     .opening{
-        width: 400px; 
+        width: 100%; 
         padding: 0%;
         height: 250px;
-        margin-left: -2.95%;
+    }
+
+    #videodbz{
+        margin-left: 0%;
     }
 }
