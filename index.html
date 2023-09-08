@@ -1,66 +1,51 @@
-<!- 
-Nome: Diogo Gomes Castro
-Professor: Marco Maciel
-Turma: 1° Período - ADS
-Atividade: Atividade Prática 08
-->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <style>
-        h3{
-            font-size: 30px;
-        }
-    </style>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width">
-    <title>Animez.7-WIKI</title>
-    <link rel="stylesheet" href="reset.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="celular_style.css">
+    <title>Document</title>
 </head>
 <body>
-
     <header>
-        <div class="barratop">
-            <a href="index.html"><img class="logo" src="ANIMEZ.7 - Logo.png"></a>
-            <nav>
-                <ul>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
+        <img id="logo" src="Images/ANIMEZ.7 - Logo.png" alt="AnimeZ.7">
     </header>
-    
+
     <main>
-        <img id="logop" src="ANIMEZ.7 - Logo.png">
+        <div id="boas_vindas">
+            <h1>AnimeZ.7</h1>
+            <img id="logoP" src="Images/ANIMEZ.7 - Logo.png" alt="AnimeZ.7">
+            <h2>Uma wiki que reúne todas informações que você precisa!</h2>
+        </div>
 
-        <p>Uma wiki que reúne todas informações que você precisa!</p>
-        <br> <br> <br> <br>
-        <ul>
-            <li>
-                <a href="dragonball.html">
-                    <div class="animes">
-                    <img class="dbimg" src="dragonball.png">
-                    <h3 id="dbtext" class="text_animes">Dragon Ball Z</h3>
-                    </div>
+        <div id="animes">
+            <div class="div_animes">
+                <a href="Dragon Ball/dragonball.html" class="evlp_animes" id="div_db">
+                    <img id="gif_db" class="gif" src="Images/goku-gif.gif">
+                    <img id="img_db" src="Images/Dragon_Ball.png">
+                    <h3>Dragon Ball</h3>
                 </a>
-            </li>
-            <li>
-                <div class="animes">
-                    <img class="animesimg" src="onepiece.webp">
-                    <h3 class="text_animes">One Piece</h3>
-                </div>
-            </li>
-            <li>
-                <div class="animes">
-                    <img class="animesimg" src="naruto.jpg" id="imgnaruto">
-                    <h3 class="text_animes" id="text_naruto">Naruto Shippuden</h3>
-                </div>
-            </li>
-        </ul>
-    </main>
+            </div>
 
+
+            <div class="div_animes">
+                <div class="evlp_animes" id="div_op">
+                    <img id="gif_op" class="gif" src="Images/luffy_gif.gif">
+                    <img id="img_op" src="Images/onepiece.webp">
+                    <h3>One Piece</h3>
+                </div>
+    
+            </div>
+
+            <div class="div_animes" id="div_naruto">
+                <div class="evlp_animes" id="padding_naruto">
+                    <img id="gif_naruto" class="gif" src="Images/naruto_gif.gif">
+                    <img id="img_naruto" src="Images/naruto.png">
+                    <h3>Naruto Shippuden</h3>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="gif.js"></script>
 </body>
-</html>         
+</html>

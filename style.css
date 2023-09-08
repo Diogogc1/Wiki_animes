@@ -1,115 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body{
     background-color: #0038FF;
-    margin: 0%;
+    overflow: hidden;
 }
 
-.barratop{
-    height:11.3vh;
+header{
+    height:11vh;
     width:100%;
-    background-image: linear-gradient(to right, black 13.9vw, orange 50px);
+    background-image: linear-gradient(to right, black 13.8vw, rgb(255, 157, 0) 1vw);
 }
 
-.logo{
-    position: relative;
-    width: 13%;
-    height: 250%;
-    top: -75%;
-    left: 0.5%;
+#logo{
+    width: 12vw;
+    height: 8vh;
+    margin-top: 1.2vh;
+    margin-left: 0.75vw;
 }
 
-#logop{
-    width: 20%;
-    height: 15%;  
-    margin: auto;
-    display: block;
-    margin-top: -5.2%;
-    margin-bottom: -40px;
-    filter: drop-shadow(5px 5px 1px black);
-}
-
-nav{
-    position: absolute;
-    top: 0.8%;
-    right: 4%;
-    font-family: monospace;
-}
-
-nav li{
-    padding: 10px;
-    text-shadow: 2px 2px 1px black;
-    color: white;
-    font-size: 25px;
-    list-style-type: none;
-    font-weight: bold;
-    background-size: 50%;
-    background-color: black;
-    border: 1px solid black;
-    border-radius: 15px 15px 15px 15px;
-}
-
-p{
-    text-shadow: 2px 2px 2px black;
-    color: white;
-    margin-top: -4%;
-    margin-bottom: -6%;
-    text-align: center; 
-    font-size: 200%;
-}
-
-ul{
+#boas_vindas{
     display: flex;
     justify-content: center;
-    padding-right: 2.4%;
+    align-items: center;
+    flex-direction: column;
 }
 
-.animes{
-    margin: 40px 40px;
-    width: 400px;
-    height: 400px;
-    text-align: center;
-    margin-top: 80px;
-    padding-top: 10%;
-    background-color: rgba(255, 255, 255, 0.154);
-    border-radius: 20px;
-    transition: 0.5s all;
+h1{
+    display: none;
 }
 
-.animes:hover{
-    width: 420px;
-    height: 420px;
+#logoP{
+    filter: drop-shadow(0.4vw 0.8vh 0.1vw rgb(0, 0, 0));
+    width: 19vw;
+    margin-top: 2.5vh;
 }
 
-.dbimg{
-    width: 68.5%;
-    height: 68.5%;
-    border-radius: 200%;
-    object-fit: cover;   
-    margin-top: -7px; 
+h2{
+    color: rgb(255, 255, 255);
+    margin-top: 4.2vh;
+    font-size: 2.1vw;
+    text-shadow: 0.1vw 0.3vh  rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Helvetica, sans-serif;
 }
 
-#dbtext{
-    margin-top: 7%;
+#animes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 5vh;
+    padding: 0 19vh;
 }
 
-.animesimg{
-    width: 66%;
-    height: 66%;
-    border-radius: 50%;
-    object-fit: cover;
+.div_animes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    position: relative;
 }
 
 a{
     text-decoration: none;
-    color: white;
 }
 
-main li{
-    list-style-type: none;
+.evlp_animes{
+    background-color: rgba(255, 255, 255, 0.154);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5.6vh 3.8vw;
+    border-radius: 20px;
+    transition: 0.21s linear;
+    position: relative;
+    cursor: pointer;
+}
+
+/*DRAGON BALL Z*/
+#gif_db{
+    width: 22vw;
+    position: absolute;
+    top: 4vh;
+    left: 6.8vw;
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* HOVER GIF_DB */
+#div_db:hover #img_db{
+    opacity: 70%;
+}
+
+#img_db{
+    width: 15.8vw;
+}
+
+/*ONE PIECE*/
+#gif_op{
+    position: absolute;
+    z-index: 1;
+    width: 80vw;
+    bottom: 10vh;
+    left: -7vw;
+    pointer-events: none;
+}
+
+/* HOVER GIF_OP */
+#div_op:hover #img_op{
+    opacity: 70%;
+}
+
+#img_op{
+    width: 15.8vw;
+    clip-path: circle();
+}
+
+/*NARUTO SHIPPUDEN*/
+#padding_naruto{
+    padding: 5.6vh 3vw;
+}
+
+#gif_naruto{
+    position: absolute;
+    z-index: 1;
+    width: 63vw;
+    bottom: 20vh;
+    left: -6vw;
+    pointer-events: none;
+}
+
+/* HOVER GIF_NARUTO */
+#div_naruto:hover #img_naruto{
+    opacity: 70%;
+}
+
+#img_naruto{
+    width: 15.8vw;
+    clip-path: circle();
 }
 
 h3{
-    font-size: 2em;
-    margin-top: 8.6%;
-    text-shadow: 2px 2px 2px black;
-    color: white;
+    color: rgb(255, 255, 255);
+    font-size: 2.2vw;
+    text-shadow: 0.2vw 0.2vh 0.4vw rgb(0, 0, 0);
+    margin-top: 3vh;
+}
+
+/*HOVER ANIME*/
+
+.evlp_animes:hover{
+    padding: 5.6vh 4.3vw 8vh 4.3vw;
+}
+
+#padding_naruto:hover{
+    padding: 5.6vh 3.5vw 8vh 3.5vw;
 }
